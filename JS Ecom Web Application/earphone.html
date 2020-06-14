@@ -1,0 +1,250 @@
+<!DOCTYPE html lang = "en">
+<!-- Headphones and earbuds -->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/custom.css">
+    <link rel="stylesheet" type="text/css" href="./search.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./js/search.js"></script>
+    <script>
+        jQuery(function() {
+            var username_session = localStorage.getItem("username");
+            var password_session = localStorage.getItem("password");
+
+            if (username_session && password_session) {
+
+            } else {
+                // document.location.href = 'login.html';
+            }
+
+        });
+    </script>
+    <script>
+        jQuery(function() {
+
+            var product_cart_count = 0;
+
+            jQuery(".product_cart").click(function(event) {
+                var id = $(this).attr('id');
+                var product_name = $("#" + id + "_name").val();
+                var product_price = $("#" + id + "_price").val();
+                var product_cart_count = 0;
+
+
+
+                var productArray = [];
+                productArray.push([product_name, product_price]);
+                sessionStorage.setItem("items", JSON.stringify(productArray));
+                console.log(productArray);
+
+
+
+                document.location.href = 'cart.html';
+            });
+
+        });
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="head">
+            <h1>
+                Music <span style="color: yellowgreen;">  Ear</span>
+            </h1>
+            <div class="nevigation">
+
+                <a class="current" href="home.html" target="_self">Home</a>
+                <a href="headphone.html" target="_self">HeadPhones</a>
+                <a href="earphone.html" target="_self">EeadPhones</a>
+                <a href="aboutus.html" target="_self">AboutUs</a>
+                <a href="contactus.html" target="_self">ContactUs</a>
+                <a href="login.html" target="_self">LogOut</a>
+
+            </div>
+        </div>
+
+
+        <!-- ----------------------------------------------- -->
+
+        <!-- LAST MOMENT ADDITION -->
+
+
+
+
+        <div id="wrapper">
+            <header>
+                <div id="page-banner">
+                    <!-- <h1 class="title">Book List</h1> -->
+                    <p>List of products</p>
+                    <form id="search-book">
+                        <input type="text" placeholder="Search Products ...">
+                    </form>
+
+                </div>
+            </header>
+
+            <div id="book-list">
+                <h2 class="title">Products</h2>
+                <ul>
+                    <li>
+                        <span class="name">Dell $199.99<input type="hidden" name="Dell" id="product1_name" value="Dell">
+                        </span>
+                        <img src="./media/nh1.png" alt="not found">
+                        <div class="product-info">
+                            <!-- <p>product abcd and all those stuff </p> -->
+                            <p> <span class="btn-cart"> 
+                                <input type="hidden" name="product1_price" id="product1_price" value="$199.99">
+                                <input type="button" class="product_cart" name="product1" id="product1" value="Add to cart">
+                            </span>
+                            </p>
+                        </div>
+                    </li>
+                    <br>
+
+                    <li>
+
+                        <span class="name">Sennheiser $400<input type="hidden" name="Sennheiser" id="product2_name" value="Sennheiser">
+                        </span>
+                        <img src="./media/nh2.png" alt="not found">
+                        <div class="product-info">
+
+                            <!-- <p>product abcd and all those stuff </p> -->
+                            <p><input type="hidden" name="product2_price" id="product2_price" value="$400">
+                                <span class="btn-cart">
+                      <input type="button" class="product_cart" name="product2" id="product2" value="Add to cart">
+                        </span> </p>
+
+                        </div>
+
+
+                    </li>
+                    <br>
+                    <li>
+                        <span class="name">JBL $500<input type="hidden" name="JBL" id="product3_name" value="JBL">
+                        </span>
+
+                        <img src="./media/nh3.png" alt="not found">
+                        <div class="product-info">
+                            <!-- <p>product abcd and all those stuff </p> -->
+                            <p><input type="hidden" name="product3_price" id="product3_price" value="$500"><span class="btn-cart">  
+                        <input type="button" class="product_cart" name="product3" id="product3" value="Add to cart">
+                        </span> </p>
+                        </div>
+
+
+
+
+
+                    </li>
+                    <br>
+                    <br>
+                </ul>
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- <div class="section">
+            <div class="product-wrapper">
+                <form method="post" action="" name="form-data" id="product">
+                    <ul>
+
+                        <li>
+                            <img src="./media/nh1.png" alt="not found">
+                            <div class="product-info">
+
+                                <h3> <span class="name">Dell<input type="hidden" name="Dell" id="product1_name" value="Dell">
+                                    </span></h3>
+                                <p>product abcd and all those stuff </p>
+                                <p><span class="price">$199.99 <input type="hidden" name="product1_price" id="product1_price" value="$199.99"></span><span class="btn-cart">  <input type="button" class="product_cart" name="product1" id="product1" value="Add to cart">
+                                    </span> </p>
+                                <a href="#" class="btn-more">Read more</a>
+
+                            </div>
+                        </li>
+                        <li>
+                              <span class="name">Sennheiser <input type="hidden" name="Sennheiser" id="product2_name" value="Sennheiser">
+                                    </span>
+                            <img src="./media/nh2.png" alt="not found">
+                            <div class="product-info">
+                               
+                                <p>product abcd and all those stuff </p>
+                                <p><input type="hidden" name="product2_price" id="product2_price" value="$400">
+                                    <span class="btn-cart">
+                                  <input type="button" class="product_cart" name="product2" id="product2" value="Add to cart">
+                                    </span> </p>
+                                
+                            </div>
+                        </li>
+
+                        <li>
+                            <span class="name">JBL<input type="hidden" name="JBL" id="product3_name" value="JBL">
+                                    </span>
+                                
+                            <img src="./media/nh3.png" alt="not found">
+                            <div class="product-info">
+                                <h3> <span class="name">JBL $500<input type="hidden" name="JBL" id="product3_name" value="JBL">
+                                    </span></h3>
+                                <p>product abcd and all those stuff </p>
+                                <p><input type="hidden" name="product3_price" id="product3_price" value="$500"><span class="btn-cart">  
+                                    <input type="button" class="product_cart" name="product3" id="product3" value="Add to cart">
+                                    </span> </p>
+                            </div>
+                        </li>
+
+                    </ul>
+                </form>
+            </div>
+
+        </div>
+        <br>
+
+ -->
+
+        <!-- ---------------------------- -->
+        <footer class="boxes">
+            <ul class="footer-links">
+                <li>
+                    <a href="https://www.facebook.com/"><img src="./media/facebook.png" alt="not found"></a>
+                </li>
+                <li>
+                    <a href="https://www.google.com/"><img src="./media/google.png" alt="not found"></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/explore"><img src="./media/twitter.png" alt="not found"></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/"><img src="./media/instagram.png" alt="not found"></a>
+                </li>
+            </ul>
+        </footer>
+
+    </div>
+</body>
+
+</html>

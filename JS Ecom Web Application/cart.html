@@ -1,0 +1,156 @@
+<!DOCTYPE html lang = "en">
+<!-- Headphones and earbuds -->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/custom.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+    <script>
+        jQuery(function() {
+            var username_session = localStorage.getItem("username");
+            var password_session = localStorage.getItem("password");
+
+            if (username_session && password_session) {
+
+            } else {
+                // document.location.href = 'login.html';
+            }
+
+        });
+    </script>
+
+
+</head>
+
+
+
+
+<body>
+    <div class="container">
+        <div class="head">
+            <h1>
+                Music <span style="color: yellowgreen;">  Ear</span>
+            </h1>
+            <div class="nevigation">
+                <ul>
+                    <li><a class="current" href="home.html" target="_self">Home</a></li>
+                    <li><a href="headphone.html" target="_self">HeadPhones</a></li>
+                    <li><a href="earphone.html" target="_self">EarPhones</a></li>
+
+                    <li><a href="aboutus.html" target="_self">AboutUs</a></li>
+                    <li><a href="contactus.html" target="_self">ContactUs</a></li>
+                    <li><a href="login.html" target="_self">LogOut</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="section">
+
+
+
+
+
+
+
+            <div class="shopping-cart">
+                <!-- Title -->
+                <div class="title">
+                    Shopping Bag
+                </div>
+
+                <!-- Product #1 -->
+                <div class="item">
+                    <div class="description">
+                        <span> <div id="cart_div"></div></span>
+                    </div>
+                    <div class="total-price">
+                        <div id="cart_price"></div>
+                    </div>
+                </div>
+                <input type="button" name="checkout_btn" id="checkout_btn" value="checkout" class="btn-more" />
+
+
+                <script>
+                    jQuery(function() {
+                        $("#checkout_btn").click(function() {
+                            document.location.href = 'checkout.html';
+                        });
+
+                    });
+
+
+
+
+
+                    var storedArray = JSON.parse(sessionStorage.getItem("items")); //no brackets
+
+
+                    var i;
+                    for (i = 0; i < storedArray.length; i++) {
+                        var Name = storedArray[i][0];
+                        var price = storedArray[i][1];
+
+                        // console.log(name);
+                        // console.log(price);
+
+                        var cart_data = Name;
+
+                        $("#cart_div").html(cart_data);
+                        var cart_data = price;
+
+                        $("#cart_price").html(cart_data);
+                    }
+                </script>
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <footer class="boxes">
+            <ul class="footer-links">
+                <li>
+                    <a href="https://www.facebook.com/"><img src="./media/facebook.png" alt="not found"></a>
+                </li>
+                <li>
+                    <a href="https://www.google.com/"><img src="./media/google.png" alt="not found"></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/explore"><img src="./media/twitter.png" alt="not found"></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/"><img src="./media/instagram.png" alt="not found"></a>
+                </li>
+            </ul>
+        </footer>
+
+
+    </div>
+</body>
+
+</html>

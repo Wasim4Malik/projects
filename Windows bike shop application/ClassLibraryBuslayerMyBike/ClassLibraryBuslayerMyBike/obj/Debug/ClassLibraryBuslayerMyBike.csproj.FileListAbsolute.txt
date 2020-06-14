@@ -1,0 +1,6 @@
+C:\Users\wasum\source\repos\ClassLibraryBuslayerMyBike\ClassLibraryBuslayerMyBike\bin\Debug\ClassLibraryBuslayerMyBike.dll
+C:\Users\wasum\source\repos\ClassLibraryBuslayerMyBike\ClassLibraryBuslayerMyBike\bin\Debug\ClassLibraryBuslayerMyBike.pdb
+C:\Users\wasum\source\repos\ClassLibraryBuslayerMyBike\ClassLibraryBuslayerMyBike\obj\Debug\ClassLibraryBuslayerMyBike.csprojAssemblyReference.cache
+C:\Users\wasum\source\repos\ClassLibraryBuslayerMyBike\ClassLibraryBuslayerMyBike\obj\Debug\ClassLibraryBuslayerMyBike.csproj.CoreCompileInputs.cache
+C:\Users\wasum\source\repos\ClassLibraryBuslayerMyBike\ClassLibraryBuslayerMyBike\obj\Debug\ClassLibraryBuslayerMyBike.dll
+C:\Users\wasum\source\repos\ClassLibraryBuslayerMyBike\ClassLibraryBuslayerMyBike\obj\Debug\ClassLibraryBuslayerMyBike.pdb

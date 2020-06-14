@@ -1,0 +1,18 @@
+credentials are 
+admin 
+12345
+
+Home Page is for the Welcome 
+Headphone page to buy Product 
+Earphone page to Search Product and buy
+about us and contact Us 
+log out will bring you back on login page 
+
+
+
+refrences from websites
+splessons  
+youtube.com
+w3school
+freecodecamp.org     
+stackoverflow

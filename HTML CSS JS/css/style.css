@@ -1,0 +1,14 @@
+body{
+    width: 60%;
+    align-items: left;
+    margin: auto;
+    padding-top: 10%;
+}
+table,td,th{
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+}
+button{
+    border-radius: 5px;
+}

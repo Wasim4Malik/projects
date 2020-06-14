@@ -1,0 +1,47 @@
+body{
+	background-color:#FFFFFF;
+	margin:0px;
+	}
+	
+.main{
+	width:71%;
+	margin:auto;
+}
+.main-link{
+	text-align-last:right;
+	background-color:black;
+	/* margin:auto; */
+	padding:20px;
+	width:auto;
+	/* word-spacing:1em; */
+	font-size:18px;
+
+}
+.main-link a{
+	text-decoration:none;
+	color:white;
+		
+	padding: 5px;
+	margin:5px;
+}
+.main-link a:hover{
+	background-color:brown;
+	border-radius: 5%;
+}
+.backgroundimage{
+	text-align:center;
+	}
+.body2{
+	text-align:center;
+	}	
+.button{
+	background-color:white;
+	border:black;
+	padding: 10px;
+	
+}	
+.body3 {
+	margin-top:2%;
+}	
+	
+	

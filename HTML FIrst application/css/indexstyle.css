@@ -1,0 +1,106 @@
+body{
+    width: 80%;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+}
+.nav-bar{
+    background-color: black;
+    padding: 20px;
+    padding-top: 15px;
+}
+.container{
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+#current{
+    background-color: #8f746c;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+.container ul{
+    margin-bottom: 0em;
+    list-style-type: none;
+    size: 18px;
+    text-align: right;
+}
+.container ul li{
+    display: inline;
+    padding-right: 18px ;
+    
+}
+.container a{
+    text-decoration: none;
+    color: white; 
+    font-size: 18px;
+}
+
+.container a:hover{
+    text-decoration: none;
+    background-color:burlywood ;
+    color: white;
+}
+.showcase{
+    margin-top: 0px;
+    
+}
+.showcase h1{
+    font-size: 50px;
+}
+.showcase article,p,h1{
+    padding: 0;
+    margin: 0;
+    width: auto;
+
+}
+#showcase-banner{
+    width: 100%;
+}
+.showcase input[type="submit"]{
+    margin-top: 15px;
+    border-color: brown;
+    margin: 10px;
+    padding: 7px;
+    background-color: transparent;
+    font-size: 10px;
+}
+.footer img{
+    width: 100%;
+
+}
+
+/*about us */
+.description{
+    width: 80%;
+    margin: auto;
+	text-align: center;
+
+}
+
+/*FOrm */
+
+.contact-form{
+	width: 60%;
+	margin: auto;
+	background-color: #42bdff;
+	text-align: center;
+}
+
+.contact-form form{
+	margin-bottom: 20px;
+}
+
+.contact-form form input[type="submit"]{
+	margin-top: 10px;
+}
+
+.contact-form form table {
+	margin-left: auto;
+	margin-right: auto;
+}
+textarea{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+

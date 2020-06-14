@@ -1,0 +1,9 @@
+C:\Users\wasum\source\repos\ClassLibraryDataLayerMyBike\ClassLibraryDataLayerMyBike\bin\Debug\ClassLibraryDataLayerMyBike.dll
+C:\Users\wasum\source\repos\ClassLibraryDataLayerMyBike\ClassLibraryDataLayerMyBike\bin\Debug\ClassLibraryDataLayerMyBike.pdb
+C:\Users\wasum\source\repos\ClassLibraryDataLayerMyBike\ClassLibraryDataLayerMyBike\bin\Debug\ClassLibraryBuslayerMyBike.dll
+C:\Users\wasum\source\repos\ClassLibraryDataLayerMyBike\ClassLibraryDataLayerMyBike\bin\Debug\ClassLibraryBuslayerMyBike.pdb
+C:\Users\wasum\source\repos\ClassLibraryDataLayerMyBike\ClassLibraryDataLayerMyBike\obj\Debug\ClassLibraryDataLayerMyBike.csprojAssemblyReference.cache
+C:\Users\wasum\source\repos\ClassLibraryDataLayerMyBike\ClassLibraryDataLayerMyBike\obj\Debug\ClassLibraryDataLayerMyBike.csproj.CoreCompileInputs.cache
+C:\Users\wasum\source\repos\ClassLibraryDataLayerMyBike\ClassLibraryDataLayerMyBike\obj\Debug\ClassLibraryDataLayerMyBike.csproj.CopyComplete
+C:\Users\wasum\source\repos\ClassLibraryDataLayerMyBike\ClassLibraryDataLayerMyBike\obj\Debug\ClassLibraryDataLayerMyBike.dll
+C:\Users\wasum\source\repos\ClassLibraryDataLayerMyBike\ClassLibraryDataLayerMyBike\obj\Debug\ClassLibraryDataLayerMyBike.pdb
