@@ -1,0 +1,13 @@
+Question 1: Accept two int values from user and return their product. If the product is greater than 1000, then return their sum
+Question 2: Accept five int values from user and return their average.
+Question 3: Given a string of odd length greater 7, return a string made of the middle three chars of a given String
+Question 4: Given a string and an int n, remove characters from string starting from zero upto n and return a new string
+Question 5: Given a list of ints, return True if first and last number of a list is same
+Question 6: Given 2 strings, s1 and s2, create a new string by appending s2 in the middle of s1
+Question 7: Find all occurrences of “USA” in given string (uppercase and lowercase).
+Welcome to USA. usa awesome, isn't it?
+Question 8: Given a two list. Create a third list by picking an odd-index element from the first list and even index elements from second.
+listOne = [3, 6, 9, 12, 15, 18, 21]
+listTwo = [4, 8, 12, 16, 20, 24, 28]
+Question 9: Given an input list removes the element at index 4 and add it to the 2nd position and also, at the end of the list
+List = [54, 44, 27, 79, 91, 41]

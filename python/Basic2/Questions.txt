@@ -1,0 +1,19 @@
+Question 1: Given a list slice it into a three chunks, (the last one could be equal with others) and then display in normal order and also reverse order.
+Question 2: Given a list from a to e, iterate through the list, and count the occurrence of each element, and create a dictionary to show the count of each element.
+sampleList = ['a', 'c', 'b', 'd', 'd', 'a', 'e', 'a', 'e']
+Expected Outcome: dict = {'a': 3, 'c': 1, 'b': 1, 'd': 2, 'e': 2}
+Question 3: Given a two list of equal size create a set such that it shows the element from both lists in the pair
+Note: The zip() function returns a zip object, which is an iterator of tuples where the first item in each passed iterator is paired together, and then the second item in each passed iterator are paired together etc.
+Question 4: Given two sets, Checks if One Set is Subset or superset of Another Set. if the subset is found delete all elements from that set
+firstSet = {27, 43, 34}
+secondSet = {34, 93, 22, 27, 43, 53, 48}
+Question 5: Iterate a given list and check if a given element already exists in a dictionary as a key’s value, display the output as a set and if not delete it from the set
+rollNumber = [47, 64, 69, 37, 76, 83, 95, 97]
+sampleDict ={'Jhon':47, 'Emma':69, 'Kelly':76, 'Jason':97}
+Assignment 2 420-LS3-AS Deadline: 14 - June -2020 at 23:55
+Question 6: Given a dictionary get all values from the dictionary and add it in a list but
+don’t add duplicates
+speed ={'jan':47, 'feb':52, 'march':47, 'April':44, 'May':52, 'June':53, 'july':54, 'Aug':44, 'Sept':54}
+Question 7: Remove duplicate from a list and create a tuple and find the minimum and
+maximum number
+sampleList = [87, 45, 41, 65, 94, 41, 99, 94]

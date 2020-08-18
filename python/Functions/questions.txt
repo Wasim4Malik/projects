@@ -1,0 +1,27 @@
+Question 1: arrange String characters such that lowercase letters should come first
+Given input String of combination of the lower and upper case arrange characters in such a way that all lowercase letters should come first.
+Example:
+Input: "PyNaTive" Output: " aeivyNPT "
+Question 2: Given an input string Count all lower case, upper case, digits, and special symbols
+Question 3: String characters balance Test
+We’ll say that a String s1 and s2 is balanced if all the chars in the string1 are there in s2. characters position doesn’t matter.
+Example:
+s1 = "yn" s2 = "Pynative" Output: s1 and s2 are balanced True
+s1 = "ynf" s2 = "Pynative" Output: s1 and s2 are balanced False
+Question 4: Given an input string, count occurrences of all characters within a string
+Example:
+Input: "pynativepynvepynative"
+Output: {'p': 3, 'y': 3, 'n': 3, 'a': 2, 't': 2, 'i': 2, 'v': 3, 'e': 3}
+Question 5: Given a list iterate it and count the occurrence of each element and create a dictionary to show the count of each element
+For example: list = [10, 20, 30, 10, 20, 40, 50]
+Expected Outcome: dict = {10: 2, 20: 2, 30: 1, 40: 1, 50: 1}
+Question 6: Write a Python program to reverse a given string
+Example:
+Input: "python"
+Output: "nohtyp"
+Question 7: Write a Python program to construct the following pattern, using a nested for loop.
+Assignment 3 420-LS3-AS Deadline: 21 – June -2019 at 23:55
+* * * * * * * * * * * * * * * * * * * * * * * * *
+Question 8: Write a Python program to display astrological sign for given date of birth. Expected Output:
+Input birthday: 15
+Input month of birth (e.g. march, july etc): may Your Astrological sign is : Taurus
