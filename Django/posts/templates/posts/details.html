@@ -1,0 +1,19 @@
+{% extends 'posts/layout.html' %} {% block content %}
+<!-- dispaly the post titile-->
+<h3 class="center-align red lighten-3">post title</h3>
+
+
+<div class="card">
+    <div class="card-content">
+        {% for post in posts %}
+        <div>
+            <p>published: {{ post.published_date }}</p>
+            <h2><a href="">{{ post.title }}</a></h2>
+            <p>{{ post.text|linebreaksbr }}</p>
+        </div>
+        {% endfor %} </div>
+    <div class="card-action">
+        <!-- display the date of post -->
+    </div>
+</div>
+<a href="/posts" class="btn">Go Back</a> {% endblock %}
